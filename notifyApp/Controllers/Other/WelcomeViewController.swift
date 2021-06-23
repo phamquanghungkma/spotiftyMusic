@@ -36,7 +36,7 @@ class WelcomeViewController: UIViewController {
         
     }
     @objc func didTapSignIn() {
-        
+
         let vc = AuthViewController()
         vc.navigationItem.largeTitleDisplayMode = .never
         vc.completionHandler = { [weak self] success in

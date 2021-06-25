@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C1320272684629E00510DAF /* SettingModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1320262684629E00510DAF /* SettingModels.swift */; };
 		2C7929E225F33A39008DB079 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7929E125F33A39008DB079 /* Extensions.swift */; };
 		2CD3BF2F2636DB070055E234 /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD3BF2E2636DB070055E234 /* AuthResponse.swift */; };
 		2CE4BA2825F297E300E0B8E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4BA2725F297E300E0B8E4 /* AppDelegate.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C1320262684629E00510DAF /* SettingModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingModels.swift; sourceTree = "<group>"; };
 		2C7929E125F33A39008DB079 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		2CD3BF2E2636DB070055E234 /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
 		2CE4BA2425F297E300E0B8E4 /* notifyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = notifyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -163,6 +165,7 @@
 				2CE4BA7C25F2A47A00E0B8E4 /* Artist.swift */,
 				2CE4BA7F25F2A49200E0B8E4 /* UserProfile.swift */,
 				2CD3BF2E2636DB070055E234 /* AuthResponse.swift */,
+				2C1320262684629E00510DAF /* SettingModels.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 				2CE4BA2025F297E300E0B8E4 /* Sources */,
 				2CE4BA2125F297E300E0B8E4 /* Frameworks */,
 				2CE4BA2225F297E300E0B8E4 /* Resources */,
+				D4A680535A1B87CD7E0B6F12 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -297,6 +301,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		D4A680535A1B87CD7E0B6F12 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-notifyApp/Pods-notifyApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-notifyApp/Pods-notifyApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-notifyApp/Pods-notifyApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -315,6 +336,7 @@
 				2CD3BF2F2636DB070055E234 /* AuthResponse.swift in Sources */,
 				2CE4BA5725F2A20B00E0B8E4 /* AuthViewController.swift in Sources */,
 				2CE4BA7725F2A45300E0B8E4 /* PlayList.swift in Sources */,
+				2C1320272684629E00510DAF /* SettingModels.swift in Sources */,
 				2CE4BA2825F297E300E0B8E4 /* AppDelegate.swift in Sources */,
 				2CE4BA8025F2A49200E0B8E4 /* UserProfile.swift in Sources */,
 				2CE4BA5225F2A1B700E0B8E4 /* LibraryViewController.swift in Sources */,
@@ -468,6 +490,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 73RF6G97S8;
 				INFOPLIST_FILE = notifyApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -488,6 +511,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 73RF6G97S8;
 				INFOPLIST_FILE = notifyApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

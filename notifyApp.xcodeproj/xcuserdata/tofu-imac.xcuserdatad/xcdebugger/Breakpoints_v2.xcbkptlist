@@ -18,6 +18,53 @@
             endingLineNumber = "13"
             landmarkName = "webView"
             landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "2FF764EA-9995-401F-B3F3-2C4399142D9C - bfe8298b52b78d1d"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; __C.WKWebView in variable initialization expression of notifyApp.AuthViewController.webView : __C.WKWebView"
+                  moduleName = "notifyApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tofu-imac/Desktop/musicSpotify/musicSpotify/notifyApp/Controllers/Other/AuthViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "2FF764EA-9995-401F-B3F3-2C4399142D9C - 7703a5f5f727b9ce"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "notifyApp.AuthViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; notifyApp.AuthViewController"
+                  moduleName = "notifyApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tofu-imac/Desktop/musicSpotify/musicSpotify/notifyApp/Controllers/Other/AuthViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "2FF764EA-9995-401F-B3F3-2C4399142D9C - 211c6f8f549b8591"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "notifyApp.AuthViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;notifyApp.AuthViewController&gt;"
+                  moduleName = "notifyApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tofu-imac/Desktop/musicSpotify/musicSpotify/notifyApp/Controllers/Other/AuthViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

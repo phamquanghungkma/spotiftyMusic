@@ -26,9 +26,11 @@ final class APICaller {
                     return
                 }
                 do {
-                    let result = try JSONSerialization.jsonObject(with: data, options: .allowFragments)
+                    let result = try JSONDecoder().decode(UserProfile.self, from: data)
                     print(result)
+                    completion(.success(result))
                 } catch {
+                    print(error.localizedDescription)
                     completion(.failure(error))
                 }
             }
@@ -58,7 +60,6 @@ final class APICaller {
             var request = URLRequest(url: apiURL)
             request.setValue("Bearer \(token)", forHTTPHeaderField: "Authorization")
             request.httpMethod = type.rawValue
-            
             completion(request)
         }
         

@@ -14,10 +14,10 @@
             filePath = "notifyApp/Controllers/Core/HomeViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
-            landmarkName = "HomeViewController"
-            landmarkType = "3">
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "fetchData()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy

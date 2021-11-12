@@ -1,4 +1,4 @@
-//
+			//
 //  ProfileViewController.swift
 //  notifyApp
 //
@@ -17,14 +17,14 @@ class ProfileViewController: UIViewController {
         return tableView
     }()
     
-    private var models = [String]()
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        title = "Profile"
-        setUpTableView()
-        fetchProfile()
-        view.backgroundColor = .systemBackground
-    }
+     private var models = [String]()
+        override func viewDidLoad() {
+            super.viewDidLoad()
+            title = "Profile"
+            setUpTableView()
+            fetchProfile()
+            view.backgroundColor = .systemBackground
+        }
     
     private func setUpTableView() {
         view.addSubview(tableView)

@@ -13,3 +13,5 @@ let screenHeight = UIScreen.main.bounds.height
 let isLoggedIn = false
 let halfScreenHeight = UIScreen.main.bounds.height
 
+
+// MARK: - For UIView

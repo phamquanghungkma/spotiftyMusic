@@ -12,7 +12,11 @@ class AuthViewController: UIViewController {
 
     private let webView: WKWebView = {
         let prefs = WKWebpagePreferences()
-        prefs.allowsContentJavaScript = true
+        if #available(iOS 14.0, *) {
+            prefs.allowsContentJavaScript = true
+        } else {
+            // Fallback on earlier versions
+        }
         let config = WKWebViewConfiguration()
         config.defaultWebpagePreferences = prefs
         let webView = WKWebView(frame: .zero, configuration: config)
@@ -53,5 +57,14 @@ extension AuthViewController: WKNavigationDelegate {
             return
         }
         print("code : \(code)")
+        
+        webView.isHidden = true
+        AuthManager.shared.exchangeCodeForToken(code: code) { [weak self] success in
+            DispatchQueue.main.async {
+                self?.navigationController?.popToRootViewController(animated: true)
+                self?.completionHandler?(success)
+            }
+        }
+        
     }
 }

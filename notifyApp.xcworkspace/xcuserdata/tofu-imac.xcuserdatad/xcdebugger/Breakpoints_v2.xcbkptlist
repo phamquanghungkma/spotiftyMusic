@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8F60B0B3-724D-4D48-8044-7BDFD6C7C0D6"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "86461FF5-80EA-4010-B3DA-DEC93F9953E6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "notifyApp/Controllers/Core/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "fetchData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "03F59775-F127-45D1-8D1E-1A9F18AEA344"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "notifyApp/Controllers/Other/AuthViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "AuthViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "03F59775-F127-45D1-8D1E-1A9F18AEA344 - bfe8298b52b78d1d"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; __C.WKWebView in variable initialization expression of notifyApp.AuthViewController.webView : __C.WKWebView"
+                  moduleName = "notifyApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tofu-imac/Desktop/musicSpotify/musicSpotify/notifyApp/Controllers/Other/AuthViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "03F59775-F127-45D1-8D1E-1A9F18AEA344 - 7703a5f5f727b9ce"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "notifyApp.AuthViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; notifyApp.AuthViewController"
+                  moduleName = "notifyApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tofu-imac/Desktop/musicSpotify/musicSpotify/notifyApp/Controllers/Other/AuthViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "03F59775-F127-45D1-8D1E-1A9F18AEA344 - 211c6f8f549b8591"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "notifyApp.AuthViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;notifyApp.AuthViewController&gt;"
+                  moduleName = "notifyApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tofu-imac/Desktop/musicSpotify/musicSpotify/notifyApp/Controllers/Other/AuthViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

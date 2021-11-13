@@ -16,9 +16,10 @@ class TabBarViewController: UITabBarController {
         let vc2 = SearchViewController()
         let vc3 = LibraryViewController()
         
-        vc1.title = "Home1"
-        vc2.title = "Search2"
-        vc3.title = "Library3"
+        vc1.title = "Home"
+        vc2.title = "Search"
+        vc3.title = "Library"
+        
         
         vc1.navigationItem.largeTitleDisplayMode = .always
         vc2.navigationItem.largeTitleDisplayMode = .always
@@ -29,11 +30,18 @@ class TabBarViewController: UITabBarController {
         let nav2 = UINavigationController(rootViewController: vc2)
         let nav3 = UINavigationController(rootViewController: vc3)
         
+        nav1.navigationBar.largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor : UIColor.white]
+//        nav2.navigationBar.largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor : UIColor.systemBackground]
+//        nav1.navigationBar.backgroundColor = .systemBackground
+        nav1.navigationBar.tintColor = .label
+        nav2.navigationBar.tintColor = .label
+        nav3.navigationBar.tintColor = .label
+        
         nav1.tabBarItem = UITabBarItem(title: "Home", image: UIImage(systemName: "house" ), tag: 1)
         nav2.tabBarItem = UITabBarItem(title: "Search", image: UIImage(systemName: "magnifyingglass" ), tag: 2)
         nav3.tabBarItem = UITabBarItem(title: "Library", image: UIImage(systemName: "music.note.list" ), tag: 3)
         
-        nav1.navigationBar.prefersLargeTitles = true
+//        nav1.navigationBar.prefersLargeTitles = true
         nav2.navigationBar.prefersLargeTitles = true
         nav3.navigationBar.prefersLargeTitles = true
         

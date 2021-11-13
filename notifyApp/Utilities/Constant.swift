@@ -15,3 +15,7 @@ let halfScreenHeight = UIScreen.main.bounds.height
 
 
 // MARK: - For UIView
+
+
+
+// MARK: - For Foundation
